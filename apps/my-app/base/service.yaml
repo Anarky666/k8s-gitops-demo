@@ -4,7 +4,7 @@ metadata:
   name: my-app
 spec:
   selector:
-    app: my-app
+    app: my-app  # Выбирает и v1, и v2
   ports:
   - port: 80
     targetPort: 80
