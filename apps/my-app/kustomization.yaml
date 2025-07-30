@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- base/deployment.yaml
-- base/deployment-v2.yaml  # Добавляем v2
+- base/deployment.yaml    # v1
+- base/deployment-v2.yaml # v2
 - base/service.yaml
 - base/gateway.yaml
 - base/virtualservice.yaml
-- base/destinationrule.yaml  # Добавляем
+- base/destinationrule.yaml  # Добавляем!
